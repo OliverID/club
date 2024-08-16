@@ -1,0 +1,320 @@
+
+h1 {
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+
+h2 {
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3.2rem;
+    
+}
+
+h3 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: -8px;
+}
+
+p {
+font-family: raleway;
+font-size: 1rem;
+line-height: normal;
+}
+
+a {
+    color: rgb(37, 37, 77);
+    font-family: poppins;
+    font-weight: 600;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+body {
+    background-color: rgb(37, 37, 77);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: wheat;
+}
+
+
+
+header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    padding: 20px;
+}
+
+
+
+.logo img {
+    height: 170px;
+    width: 170px;
+    text-align: center;}
+
+
+li {
+    display: inline-block;
+    font-family: raleway;
+    font-size: 1.1rem;
+    padding: 0px 12px;
+}
+
+
+main {
+    text-align: center;
+    height: 100%;
+    background-image: url(img/fons.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: bisque;
+    color: black;
+    font-family: poppins;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translate(1%);
+    transition: 400ms;
+    cursor:pointer;
+}
+
+
+.tagline {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    font-style: italic;
+    letter-spacing: 8px;
+    margin-bottom: -20px;
+}
+
+
+main .hero {
+    padding: 60px ;
+    background-color: rgb(17, 17, 27, 0.8);
+    padding: 40px;
+    width: 40%;
+    margin: auto;
+    border-radius: 15px;
+    border: solid 5px rgba(255, 255, 255, 0.651);
+}
+
+main .hero p {
+    width: 60%;
+    margin: auto;
+}
+
+.destacats {
+    display: flex;
+    padding: 80px 0px 0px 0px;
+}
+
+
+.destacat {
+    background-color: rgb(17, 17, 27, 0.8);
+    padding: 40px 40px;
+    margin: 12px 12px;
+    border-radius: 15px;
+    border: solid 5px rgba(255, 255, 255, 0.651);
+}
+
+
+
+.seccio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #01506F, #0084BD);
+    border-bottom: solid 2px #33BFDD;
+}
+
+
+
+.intro {
+    text-align: center;
+    margin: 40px 0px -60px 0px;
+
+}
+
+.secc3 {
+    display: flex;
+    gap: 40px;
+    margin: 80px 0px;
+    padding: 40px;
+}
+
+
+.secc3 a {
+    color: wheat;
+}
+
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 250px;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+}
+
+.cta button {
+    color: wheat;
+    background-color: rgb(36, 25, 43);
+}
+
+.cta button:hover {
+    color: white;
+    background-color: rgb(93, 25, 43);
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    background-image: linear-gradient(to bottom, rgb(78, 78, 78), #000000 );
+}
+
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 32px;
+    color: wheat;
+}
+
+.upper a {
+    font-weight: 500;
+    color: wheat;
+}
+
+.upper li {
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+}
+
+
+.logotip {
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 80px;
+}
+
+
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(10, 10, 10);
+    border-top: solid 1px rgb(39, 39, 39);
+    padding: 32px;
+}
+
+.bottom a {
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+    
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .secc3 {
+        flex-direction: column
+        
+    }
+
+    .destacats {
+       flex-direction: column;
+    }
+
+    .cta {
+        padding: 80px 32px;
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+        padding: 80px 12px;
+    }
+
+    .upper li {
+        display: inline-block;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+        padding: 32px;
+    }
+  
+  
+
+    .logotip {
+        background-color: wheat;
+        border-radius: 100%;
+        padding: 30px;
+    }
+
+    .bottom {
+    flex-direction:column;
+    align-items: center;
+    
+    }
+
+
+    main .hero p {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+}
+
+
+@media only screen and (max-width: 320px) { 
+
+}
